@@ -1,0 +1,142 @@
+.body
+{
+    margin: 0;
+}
+
+.signUPFormMain
+{
+    background-color: #f8f2f8;
+}
+
+.registerButton
+{
+    background-color:  #2c0264 ;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.formDetails
+{
+    background-color: white;
+    border-radius: 20px;
+}
+.heaadingText
+{
+    color: #521696;
+    font-weight: 500;
+}
+.form-control:focus
+{
+  background-color: none;
+  box-shadow: none;
+  color: none;
+  outline: none;
+  border-color: black;
+}
+.forgot-password
+{
+    align-self: self-end;
+    color:  #521696;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+}
+.loginOTP
+{
+    align-self: center;
+    color:  #521696;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.formLabels
+{
+    font-weight: bold
+}
+.inputElements
+{
+    border: #2c0264 1.5px solid;
+    border-radius: 10px;
+}
+
+input::placeholder {
+    font-weight:500 ;
+    color: silver;    
+    
+  }
+.emailLogin
+{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.826);
+}
+
+.emailLoginContainer
+{
+    box-shadow: 2px 2px 1px whitesmoke;     
+    background-color: #ffffff;
+    width: fit-content;
+    border-radius: 10px;
+    align-self: center;
+}
+.detailsImage
+{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.checkDetailsIcon
+{
+    color: white;
+    background-color:#2c0264 ;
+    border-radius: 100%;
+}
+.innerContainer
+{
+    justify-content: space-around;
+}
+
+.login-image-container
+{
+    align-self: center;
+    color:  #521696;
+    font-weight: bolder;
+    font-size: 15px;
+
+}
+.detailsImageContainer
+{
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+.image-text-container
+{
+    font-size: 14px;
+}
+.imgRegisterButton
+{
+    background-color:  white ;
+    color: #2c0264;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 14px;
+    border: solid 1px #2c0264d0 ;
+    border-color: #2c0264d0;
+}
+.eye
+{
+    display: flex;
+    border: 1px solid  #2c0264d0 ;
+    border-radius: 10px;
+}
+#passwordInput,#userInput
+{
+    border: none;
+}
+
+.eyeIcon
+{
+    color: silver;
+}

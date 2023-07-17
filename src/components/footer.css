@@ -1,0 +1,56 @@
+.footerSection
+{
+    background-color: black;
+    color: white;
+}
+.secondCol, .thirdCol, .fourthCol
+{
+    font-size: 10px;
+    word-spacing: 5px;
+    line-height: 1.2rem;
+}
+.footerSection
+{
+    padding: 70px;
+}
+.footerText
+{
+    font-size: 9px;
+    line-height: 1.5rem;
+    
+}
+.firstFooterContainer
+{
+    justify-content: space-between;
+}
+.thick-horizontal-line {
+    height: 1px;
+    background-color: white;
+    
+  }
+  .iconarr{
+    padding-right: 15px;
+}
+#bLine{
+    border-bottom: 1px solid white;
+}
+
+.logos{
+    color: #ffffff;
+    font-size:30px;
+}
+
+#linkedIn, #facebook, #instagram, #twitter
+{
+    transition: 3s;
+}
+
+#linkedIn:hover ,#facebook:hover  , #instagram:hover, #twitter:hover
+{
+    transform: rotate(360deg);
+}
+.secondFooterContainer
+{
+    justify-content: space-between;
+
+}

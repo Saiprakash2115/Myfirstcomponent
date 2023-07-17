@@ -1,0 +1,12 @@
+/*Pab header */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pabLogo
+{
+    width: 150px;
+}

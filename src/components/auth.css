@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.signUpHeaderContainer
+{
+    justify-content: space-around;
+}
+
+.loginTitle
+{
+    color:  #270d44;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.span-item
+{
+    font-size: 15px;
+}
+.headerText
+{
+    font-weight: 450;
+}
+.checkDetailsIconRecruiter
+{
+    display: none;
+}
+.pabLogo
+{
+    width: 150px;
+}
+.switchRole{
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 1px whitesmoke;
+    font-weight: bolder;
+    color:black;
+    justify-content: space-around;
+}
+.buttonContainer
+{
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 1px whitesmoke;
+    justify-content: space-around;
+    color:black;
+    font-weight: bolder;
+    
+}
+
+.betweenElement
+{
+    color: silver;
+}
+
+.seekerBtn
+{
+    
+    box-shadow: 2px 2px 1px whitesmoke;     
+    background-color: #ffffff;
+    border: none;
+    border-right: 2px solid silver;
+    font-weight: bolder;
+}
+.seekerContainer
+{
+    box-shadow: 2px 2px 1px whitesmoke;     
+    background-color: #ffffff;
+    border: none;
+    justify-content: space-evenly;
+    font-weight: bolder;   
+}
+.seekerCont
+{
+    justify-content: space-between;
+}
+.radioBtn
+{
+    margin-left: 20px;
+}
+#loginLink
+{
+    text-decoration: none;
+}
+.recruiterBtn
+{
+    box-shadow: 2px 2px 1px whitesmoke;     
+    background-color: #ffffff;
+    border: none;
+    font-weight: bolder;
+    color: silver;
+}
+.switchRoleRecruiter
+{
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 1px whitesmoke;
+    font-weight: bolder;
+    color: silver;
+    justify-content: space-around;
+
+}
+.headeToogle
+{
+    text-decoration: none;
+    color: #270d44;
+}
+#jobseekersButton
+{
+    accent-color: #270d44;
+    width: 20px;
+    height: 20px;
+}
+#recruitersButton
+{
+    width: 20px;
+    height: 20px;
+}
+.label2
+{
+    color: silver;
+}
+.num-item
+{
+    border: 1px solid #2c0264;
+    padding: 8px ;
+    border-radius: 10px;
+    background-color: transparent;
+    
+}
+@media (max-width: 768px) {
+    .signUpHeaderContainer{
+      justify-content: center;
+    }
+  }
+.changingButton
+{
+    justify-content: space-between;
+}
+.signUPFormMain
+{
+    background-color: #f8f2f8;
+}
+.formDetails
+{
+    background-color: white;
+    border-radius: 20px;
+}
+.heaadingText
+{
+   
+    font-weight: 490;
+}
+.inputElements
+{
+    border: #2c0264 1.5px solid;
+    border-radius: 10px;
+}
+#country
+{
+    border: #2c0264 1.5px solid;
+    border-radius: 10px;
+}
+.checkIcon
+{
+    background-color: rgb(77, 179, 77);
+    color: white;
+    border-radius: 5px;
+}
+.declarationText
+{
+    font-size: 12px;
+}
+.registerButton
+{
+    background-color:  #2c0264 ;
+    color: white;
+    width: auto;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.createHeading
+{
+    font-weight: bolder;
+}
+.detailsImage
+{
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+}
+.checkDetailsIcon
+{
+    color: white;
+    background-color:#2c0264 ;
+    border-radius: 100%;
+}
+.section3{
+    background-color: black;
+}
+.bottomtext{
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+.bImg{
+    border-radius: 10px;
+}
+
+.innerContainer
+{
+    justify-content: space-around;
+}
+.iconarr{
+    padding-right: 15px;
+}
+#bLine{
+    border-bottom: 1px solid white;
+}
+.logos{
+    color: #ffffff;
+    font-size:30px;
+}
+.thick-horizontal-line {
+    height: 1px;
+    background-color: white;
+    
+  }
+
+.footerSection
+{
+    background-color: black;
+    color: white;
+}
+.secondCol, .thirdCol, .fourthCol
+{
+    font-size: 10px;
+    word-spacing: 5px;
+    line-height: 1.2rem;
+}
+.footerSection
+{
+    padding: 70px;
+}
+.footerText
+{
+    font-size: 9px;
+    line-height: 1.5rem;
+    
+}
+
+.secondFooterContainer
+{
+    justify-content: space-between;
+
+}
+.firstFooterContainer
+{
+    justify-content: space-between;
+}
+@media (max-width: 768px) {
+    .secondFooterContainer{
+      display: flex;
+      flex-direction: column;
+      justify-content: initial;
+    }
+    input[type="radio"] {
+        transform: scale(0.7); /* Adjust the scale value as needed */
+      }
+    
+  }
+
+@media (min-width:320px) and (max-width:374px)
+{
+   #label1
+   {
+    font-size: 14px;
+   }
+   #label2
+   {
+    font-size: 14px;
+   }
+   #jobseekersButton
+   {
+    width: 15px;
+    height: 15px;
+   }
+   #recruitersButton
+   {
+    width: 15px;
+    height: 15px;
+   }
+}
+@media (min-width:768px) and (max-width:1020px)
+{
+   #label1
+   {
+    font-size: 14px;
+   }
+   #label2
+   {
+    font-size: 14px;
+   }
+   #jobseekersButton
+   {
+    width: 15px;
+    height: 15px;
+   }
+   #recruitersButton
+   {
+    width: 15px;
+    height: 15px;
+   }
+   #signUpText
+   {
+    font-size: 13px;
+   }
+   #loginText
+   {
+    font-size: 15px;
+   }
+   #iconSymbol
+   {
+    font-size: 10px;
+    padding: 2px;
+   }
+} #iconSymbol
+   {
+   
+    padding: 2px;
+   } 
+@media (min-width:320px) and (max-width:768px) {
+#bottomPabLogo
+{
+    width: 100px;
+    
+}
+#iconSymbol
+   {
+    font-size: 15px;
+    padding: 2px;
+   }
+
+.footerSection
+{
+    padding: 20px;
+}
+.betweenElement
+{
+    color: silver;
+    font-weight: 200;
+}
+
+
+}
+
+
+
+#linkedIn, #facebook, #instagram, #twitter
+{
+    transition: 2s;
+}
+
+#linkedIn:hover ,#facebook:hover  , #instagram:hover, #twitter:hover
+{
+    transform: rotate(360deg);
+}
+/*
+@keyframes slideInFromBottom {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  } */
+
+
+/* .formDetails
+{
+    transition: transform 0.3s ease-in-out;
+}
+.formDetails:hover {
+    transform: scale(1.1);
+  } */
+
+  /* .footerSection
+  {
+    animation: slideInFromBottom 1s ease-out;
+  } */
+  .form-control:focus
+  {
+    background-color: none;
+    box-shadow: none;
+    color: none;
+    outline: none;
+    border-color: black;
+  }
+  
